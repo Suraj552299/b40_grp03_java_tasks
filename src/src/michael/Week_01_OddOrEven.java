@@ -14,6 +14,9 @@ identify(6) ->  "Even"
 int num=7;
 if (num%2==0){
     System.out.println("Number is Even:" + num);
+}else if (num%2==1){
+    System.out.println("Number is Odd:" + num);
 }
+
     }
 }
