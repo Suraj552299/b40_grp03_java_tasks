@@ -11,11 +11,16 @@ identify(6) ->  "Even"
 * */
 
     public static void main(String[] args) {
-int num=7;
+int num=0;
+
 if (num%2==0){
+    System.out.println();
     System.out.println("Number is Even:" + num);
 }else if (num%2==1){
+    System.out.println();
     System.out.println("Number is Odd:" + num);
+}else{
+    System.out.println("Number is Zero:" + num);
 }
 
     }
