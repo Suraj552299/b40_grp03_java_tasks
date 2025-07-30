@@ -16,11 +16,9 @@ int num=0;
 if (num%2==0){
     System.out.println();
     System.out.println("Number is Even:" + num);
-}else if (num%2==1){
+}else {
     System.out.println();
     System.out.println("Number is Odd:" + num);
-}else{
-    System.out.println("Number is Zero:" + num);
 }
 
     }
