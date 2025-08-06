@@ -1,6 +1,6 @@
 package src.talha;
 
-public class Week_01_OddOrEven {
+public class Week01_OddOrEven {
     public static void main(String[] args) {
 
         int num = 8;
@@ -8,8 +8,6 @@ public class Week_01_OddOrEven {
         oddOrEvenMethod(57);
         oddOrEvenMethod(75);
         oddOrEvenMethod(40);
-
-
 
     }
 
