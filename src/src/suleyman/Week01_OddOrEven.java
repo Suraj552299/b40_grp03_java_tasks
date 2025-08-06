@@ -1,6 +1,6 @@
 package src.suleyman;
 
-public class OddOrEven {
+public class Week01_OddOrEven {
     public static void main(String[] args) {
         int number=7;
         oddOrEvenMethod(number);
@@ -8,7 +8,6 @@ public class OddOrEven {
         oddOrEvenMethod(8);
         oddOrEvenMethod(0);
         oddOrEvenMethod(-8);
-
 
     }
 
