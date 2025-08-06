@@ -1,8 +1,9 @@
 package src.suleyman;
 
-public class OddOrEven {
+public class FINRA {
     public static void main(String[] args) {
-        int num=7;
+
+
 
     }
 }
