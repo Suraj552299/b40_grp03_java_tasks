@@ -1,12 +1,17 @@
 package src.ermek;
 
 public class OddOrEven {
+
   public static void main(String[]args){
-    int number=7
-    oddOrEvenMethod(number);
-    oddOrEvenMethod(-7);
-    oddOrEvenMethod(8);
-    oddOrEvenMethod(0);
-    oddOrEvenMethod(-8);
-    
-}
+
+      int number=6;
+      String result;
+
+      if (number % 2 == 0) {
+        result = number + " is Even";
+      } else {
+        result = number + " is Odd";
+      }
+      System.out.println(result);
+    }
+  }
