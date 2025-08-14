@@ -5,9 +5,11 @@ public class Finra {
 String result;
 
         for (int number = 1; number <= 30; number++) {
+
             boolean r1 = number % 3 == 0 & number % 5 == 0;
             boolean r2 = number % 3 == 0;
             boolean r3 = number % 5 == 0;
+
             if (r1) {
                 result = "FINRA";
             } else if (r2) {
