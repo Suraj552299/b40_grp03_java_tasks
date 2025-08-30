@@ -3,6 +3,7 @@ package src.suroj;
 public class Week3_SwapTwoNumbers {
     public static void main(String[] args) {
         swap_Method(11,10,'+');
+        swap_Method(11,10,'/');
 
 
     }
@@ -27,7 +28,7 @@ public class Week3_SwapTwoNumbers {
                 System.out.println("After swapping a="+ a);
                 break;
             default:
-                System.out.println("İnvalid operation "+x);
+                System.out.println("İnvalid operation = " +x);
         }
 
     }
