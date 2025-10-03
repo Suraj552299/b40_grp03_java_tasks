@@ -23,7 +23,7 @@ public class Week09_FindMaximum {
     public static int findMaxNumber(int[] number) {
         int max;
         max = number[0];
-
+//
         for (int i = 0; i < number.length; i++) {
             if (max < number[i]) {
                 max = number[i];
