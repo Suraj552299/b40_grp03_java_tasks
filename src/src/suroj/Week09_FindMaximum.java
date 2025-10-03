@@ -6,6 +6,7 @@ public class Week09_FindMaximum {
         int[] numbers={1, 5, 8, 3, 2, 11, -1,456,8563};
 
         System.out.println(findMaxNumber(numbers));
+        
     }
 
     /*
